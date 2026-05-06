@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Custra turns customer reviews, comments, and ad data into winning ad angles, hooks, and creative insights for DTC and performance marketing teams." },
       { name: "author", content: "Custra" },
       { property: "og:title", content: "Custra — Creative Intelligence For DTC Brands" },
-      { property: "og:description", content: "Turn customer signals into high-performing ad angles. AI-powered creative intelligence for modern brands." },
+      { property: "og:description", content: "Custra turns customer reviews, comments, and ad data into winning ad angles, hooks, and creative insights for DTC and performance marketing teams." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Custra — Creative Intelligence For DTC Brands" },
+      { name: "twitter:description", content: "Custra turns customer reviews, comments, and ad data into winning ad angles, hooks, and creative insights for DTC and performance marketing teams." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ed6c93d4-aab6-4f0c-ae33-c23c5893a735/id-preview-ee4b9e91--d22b4593-9028-4efe-95cf-514174367412.lovable.app-1778099425216.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ed6c93d4-aab6-4f0c-ae33-c23c5893a735/id-preview-ee4b9e91--d22b4593-9028-4efe-95cf-514174367412.lovable.app-1778099425216.png" },
     ],
     links: [
       {
