@@ -118,7 +118,6 @@ function Hero() {
 }
 
 function TrustBar() {
-  const brands = ["NORTHWAVE", "AURORA", "OAKLINE", "PALMA", "VANTA CO.", "MERIDIAN"];
   const stats = [
     { v: "3×", l: "Faster Creative Ideation" },
     { v: "10K+", l: "Reviews Analyzed Per Run" },
@@ -131,14 +130,7 @@ function TrustBar() {
         <p className="text-center text-xs uppercase tracking-[0.3em] text-muted-foreground">
           Built For Teams Obsessed With Creative Performance
         </p>
-        <div className="mt-8 grid grid-cols-3 items-center gap-y-6 md:grid-cols-6">
-          {brands.map((b) => (
-            <div key={b} className="text-center font-display text-sm font-semibold tracking-widest text-muted-foreground/70 transition-colors hover:text-foreground">
-              {b}
-            </div>
-          ))}
-        </div>
-        <div className="mt-14 grid grid-cols-2 gap-3 md:grid-cols-4">
+        <div className="mt-10 grid grid-cols-2 gap-3 md:grid-cols-4">
           {stats.map((s) => (
             <div key={s.l} className="glass rounded-xl p-5">
               <div className="font-display text-3xl font-semibold text-gradient">{s.v}</div>
